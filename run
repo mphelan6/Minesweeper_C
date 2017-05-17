@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#this resets the color back to the terminal default
+#even if the user uses ctrl-c
+trap "./bin/resetColor" SIGINT
+
+./bin/minesweeper

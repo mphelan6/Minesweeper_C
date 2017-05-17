@@ -1,0 +1,5 @@
+#!/bin/bash
+#compiles the game
+mkdir bin/
+gcc src/minesweeper.c -o bin/minesweeper
+gcc src/resetColor.c -o bin/resetColor
